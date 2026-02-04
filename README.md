@@ -10,6 +10,8 @@ Ce projet permet d'identifier automatiquement la configuration d'un boîtier à 
 * **Classification par CNN** : Modèle de Deep Learning capable de distinguer 6 classes : `jaune`, `bleu`, `rouge`, `vert`, `aru` (arrêt d'urgence) et `rien` (bruit/vis).
 * **Mode Production Real-Time** : Analyse en temps réel via webcam avec affichage des scores de confiance.
 
+<img width="839" height="681" alt="Capture d&#39;écran 2026-02-04 151928" src="https://github.com/user-attachments/assets/606451a7-dd15-4860-b72f-4b2df69039ec" />
+
 ## 📁 Structure du Projet
 
 * `analyse_image.py` : Scanne le dossier d'images, extrait les boutons, applique l'augmentation de données et génère le fichier `dataset_complet.csv`.
