@@ -94,4 +94,4 @@ L'atout majeur de la solution actuelle réside dans sa **modularité** :
 * **Adaptabilité rapide** : Le code peut intégrer de nouveaux formats de boîtiers sans nécessiter un réentraînement complet du cœur du modèle.
 * **Scalabilité** : L'ajout d'un nouveau type de bouton (couleur ou forme inédite) est extrêmement rapide, nécessitant seulement une courte phase d'extraction et de mise à jour du classifieur CNN.
 
-Pour un accès au donnèes, n'hésitez pas à me contacter :)
+Pour un accès aux donnèes, n'hésitez pas à me contacter :)
