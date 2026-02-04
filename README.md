@@ -1,4 +1,3 @@
-```markdown
 # Reconnaissance de Boîtiers à Boutons Industriels - Vision & CNN
 
 Ce projet permet d'identifier automatiquement la configuration d'un boîtier à boutons industriel (couleurs, nombre, ordre) à partir d'une photo ou d'un flux vidéo en direct. Initialement conçu sous MATLAB, cet algorithme a été porté sous Python en utilisant **OpenCV** pour le traitement d'image et **TensorFlow/CNN** pour l'intelligence artificielle.
