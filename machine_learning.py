@@ -38,7 +38,7 @@ def create_dataset(dataframe, batch_size=32):
 
 train_ds = create_dataset(train_df)
 test_ds = create_dataset(test_df)
-"""
+
 def creer_modele_bouton(nb_classes):
     model = models.Sequential([
         # BLOC 1
@@ -84,8 +84,8 @@ print(f"\nPrécision sur le jeu de test : {accuracy*100:.2f}%")
 # 2. Sauvegarde du modèle pour l'utiliser plus tard
 mon_ia.save('modele_boutons_v2.keras')
 print("Modèle sauvegardé sous 'modele_boutons_v1.h5'")
-"""
-mon_ia = tf.keras.models.load_model('modele_boutons_v1.keras')
+
+mon_ia = tf.keras.models.load_model('modele_boutons_v2.keras')
 
 # 3. Test de prédiction sur une seule image
 def predire_bouton(chemin_image):
@@ -100,3 +100,4 @@ def predire_bouton(chemin_image):
 
 # Exemple :
 print(f"Le bouton est : {predire_bouton(r'extractions/WIN_20260123_15_24_22_Pro_btn_5.jpg')}")
+
